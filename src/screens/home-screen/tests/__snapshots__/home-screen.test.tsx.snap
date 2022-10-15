@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen should render correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "height": "100%",
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    resizeMode="cover"
+    source="test-file-stub"
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 0,
+          "width": "100%",
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "bottom": 0,
+          "fontSize": 12,
+          "height": 80,
+          "lineHeight": 20,
+          "maxWidth": 750,
+          "paddingHorizontal": 22,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#383B42",
+            "fontFamily": "HelveticaNeue-Medium",
+            "fontSize": 13,
+          }
+        }
+      >
+        Stargazers Viewer
+      </Text>
+    </View>
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0,
+          "borderColor": "#FFFFFF",
+          "borderRadius": 20,
+          "borderWidth": 1,
+          "elevation": 1,
+          "height": 310,
+          "maxWidth": 400,
+          "opacity": 0,
+          "padding": 20,
+          "paddingTop": 15,
+          "position": "absolute",
+          "shadowColor": "#414757",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 2,
+          "transform": Array [
+            Object {
+              "translateY": 180,
+            },
+          ],
+          "width": "85%",
+          "zIndex": 2000,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#9867F0",
+            "borderRadius": 12,
+            "flexDirection": "row",
+            "marginTop": 12,
+            "padding": 16,
+            "width": "100%",
+          }
+        }
+      >
+        <Feather
+          color="#FFFFFF"
+          name="alert-circle"
+          size={18}
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "HelveticaNeue-Medium",
+              "fontSize": 16,
+              "marginEnd": 16,
+              "marginStart": 8,
+            }
+          }
+        >
+          Type a GitHub user below and select from the list to see his repositories.
+        </Text>
+      </View>
+      <AutocompleteDropdown
+        ChevronIconComponent={
+          <Feather
+            color="#fff"
+            name="chevron-down"
+            size={20}
+          />
+        }
+        ClearIconComponent={
+          <Feather
+            color="#fff"
+            name="x-circle"
+            size={18}
+          />
+        }
+        EmptyResultComponent={
+          <Text
+            style={
+              Object {
+                "color": "#FFF",
+                "fontFamily": "HelveticaNeue-Medium",
+                "fontSize": 16,
+                "padding": 10,
+                "textAlign": "center",
+              }
+            }
+          >
+            No user found
+          </Text>
+        }
+        closeOnBlur={false}
+        containerStyle={
+          Object {
+            "flexGrow": 1,
+            "flexShrink": 1,
+          }
+        }
+        controller={[Function]}
+        debounce={600}
+        direction="down"
+        inputContainerStyle={
+          Object {
+            "backgroundColor": "#383b42",
+            "borderRadius": 25,
+            "marginTop": 20,
+          }
+        }
+        inputHeight={50}
+        loading={false}
+        onChangeText={[Function]}
+        onClear={[Function]}
+        onOpenSuggestionsList={[Function]}
+        onSelectItem={[Function]}
+        renderItem={[Function]}
+        rightButtonsContainerStyle={
+          Object {
+            "alignSelf": "center",
+            "height": 30,
+            "right": 15,
+          }
+        }
+        showChevron={false}
+        suggestionsListContainerStyle={
+          Object {
+            "backgroundColor": "#414757",
+          }
+        }
+        suggestionsListMaxHeight={533.6}
+        textInputProps={
+          Object {
+            "autoCapitalize": "none",
+            "autoCorrect": false,
+            "placeholder": "Type GitHub user...",
+            "style": Object {
+              "backgroundColor": "#383b42",
+              "borderRadius": 25,
+              "color": "#fff",
+              "paddingLeft": 18,
+            },
+          }
+        }
+        useFilter={false}
+      />
+      <View
+        accessibilityState={
+          Object {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#B4B4B4",
+            "borderColor": "#505050",
+            "borderRadius": 40,
+            "minWidth": 150,
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#505050",
+              "fontFamily": "HelveticaNeue-Medium",
+              "fontSize": 18,
+              "textAlign": "center",
+            }
+          }
+        >
+          Continue
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

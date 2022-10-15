@@ -1,0 +1,1 @@
+export {InfoTextLayout} from './InfoTextLayout';
