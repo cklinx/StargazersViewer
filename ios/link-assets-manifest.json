@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Medium.otf",
+      "sha1": "9fcc81b562894d3cbf6b72a0d8d0412885e89df5"
+    },
+    {
+      "path": "src/assets/fonts/HelveticaNeue-Regular.ttf",
+      "sha1": "05939083414990be00aec07aeed967db3efae54d"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-Medium.ttf",
+      "sha1": "b44e41281ac30afd7ac25fec1e61ea5e8136ff63"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-Regular.ttf",
+      "sha1": "7d0e0d668871f2d497d84584a0c31b3a7d6c1cee"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-SemiBold.ttf",
+      "sha1": "17d89db7e3170563bd31be2a6b648882bc030387"
+    }
+  ]
+}
