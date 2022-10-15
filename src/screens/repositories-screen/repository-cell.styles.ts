@@ -1,6 +1,5 @@
-import {StyleSheet} from 'react-native';
-import {Colors, Fonts} from '@stargazers/theme';
-import spacing from '@stargazers/theme/spacing';
+import {Platform, StyleSheet} from 'react-native';
+import {Fonts} from '@stargazers/theme';
 
 export const styles = StyleSheet.create({
   cellWrapper: {
@@ -102,7 +101,7 @@ export const styles = StyleSheet.create({
     },
     shadowOpacity: 0,
     shadowRadius: 0,
-    paddingBottom: 5,
+    paddingBottom: Platform.OS === 'android' ? 0 : 5,
   },
   counterRowsWrapper: {
     flexDirection: 'row',
